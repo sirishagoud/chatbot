@@ -73,17 +73,17 @@ header {
 }
 .user-area, .chatbot-area {
     width: 20%;
-    height: calc(100vh - 10px);
-    margin-right: 5px;
+    height: calc(100vh - 60px);
+    margin-right: 15px;
     display: flex;
     align-items: center;
     position: fixed;
-    left: 330px;
-    z-index: 99;
+    left: 80px;
+    z-index: 99999;
 }
 .chatbot-area {
     float: right;
-    right: 30px;
+    right: 80px;
     left: auto;
 }
 .user-area img, .chatbot-area img {
